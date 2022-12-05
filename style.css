@@ -152,7 +152,7 @@ font-weight: 600;
   margin-bottom: 20px;
 }
 .feature_icon{
-  display: flex;
+  display: none;
   margin: auto;
 }
 .feature_text{
@@ -389,9 +389,12 @@ font-weight: 600;
     display: none;
   }
 }
-@media (min-width: 320px){
+@media (min-width: 320px) and (max-width: 650px){
   .block{
-    width: 256px;
+    padding: 0 32px;
+  }
+  .va{
+    padding: 0;
   }
   .header_heading{
     font-size: 24px;
@@ -411,9 +414,11 @@ font-weight: 600;
     padding-bottom: 20px;
   }
   .sale_btn{
-width: 100%;
+width: 80%;
   }
   .sale_btnd{
+    display: flex;
+    justify-content: center;
     width: 100%;
     padding-bottom: 40px;
   }
@@ -479,5 +484,12 @@ width: 100%;
   }
   .sale_item{
     padding-bottom: 50px;
+  }
+  .row_program{
+    display: flex;
+    flex-direction: column;
+  }
+  .w80{
+    width: 80%;
   }
 }
