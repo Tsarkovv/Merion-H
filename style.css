@@ -311,6 +311,12 @@ font-weight: 600;
 .mob{
   display: none;
 }
+.program_title{
+  background-color: #605DEC;
+  border-radius: 4px;
+  color: white;
+  padding: 7px;
+}
 @media (max-width: 1024px){
   .block{
     width: 896px;
@@ -398,6 +404,7 @@ font-weight: 600;
   }
   .header_heading{
     font-size: 24px;
+    line-height: 1.5;
   }
   .header_text{
     font-size: 16px;
@@ -437,10 +444,13 @@ width: 80%;
     width: 100%;
   }
   .expert_photo, .expert_photo img{
-    width: 255px;
-    height: 255px;
+    max-width: 90%;
+    object-fit: cover;
+    object-position: top;
+    height: 300px;
   }
   .expert{
+    width: 100%;
     flex-direction: column;
   }
   .expert_text__content{
