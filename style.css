@@ -319,7 +319,7 @@ font-weight: 600;
 }
 @media (max-width: 1024px){
   .block{
-    width: 896px;
+    padding: 0 64px;
     margin: auto;
   }
   .header_heading{
@@ -444,13 +444,13 @@ width: 80%;
     width: 100%;
   }
   .expert_photo, .expert_photo img{
-    max-width: 90%;
+    width: 100%;
     object-fit: cover;
-    object-position: top;
-    height: 300px;
+    object-position: center;
+    height: 250px;
   }
   .expert{
-    width: 80%;
+    width: 100%;
     flex-direction: column;
   }
   .expert_text__content{
