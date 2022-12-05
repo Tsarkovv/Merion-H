@@ -450,7 +450,7 @@ width: 80%;
     height: 300px;
   }
   .expert{
-    width: 100%;
+    width: 80%;
     flex-direction: column;
   }
   .expert_text__content{
